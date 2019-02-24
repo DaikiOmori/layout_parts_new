@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+table,th,td  {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #decede;
+  text-align: center;
+}
+
+.q3__thead {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 26px;
+  background-color: #2244aa;
+}
+
+
+
+.q3__tr:nth-child(2) { 
+  background-color: #ecf1f2
+}
+
+.q3__tr:nth-child(4) { 
+  border-bottom: 2px dashed #000;
+  background-color: #ecf1f2
+}
+
+.date {
+  color: #ffffff;
+  background-color: #2244aa;
+}
+
+.padding {
+  padding: 10PX;
+}
 
 /* 回答はここに書いてね */
