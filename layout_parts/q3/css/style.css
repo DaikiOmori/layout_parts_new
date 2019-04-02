@@ -4,9 +4,15 @@
 .q3__table,.q3__table th,.q3__table td  {
   margin: 0 auto;
   border-collapse: collapse;
-  border: 1px solid #decede;
+  border: 1px solid #dedede;
   text-align: center;
 }
+
+.q3__table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 
 .q3__thead {
   font-size: 18px;
@@ -14,7 +20,6 @@
   line-height: 26px;
   background-color: #2244aa;
 }
-
 
 
 .q3__tr:nth-child(even) { 

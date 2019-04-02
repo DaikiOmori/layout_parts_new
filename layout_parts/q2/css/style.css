@@ -21,13 +21,13 @@
   word-break: break-all;
 }
 
-.target1 {
+.image-left {
   float: left;
   padding-right: 20px;
   padding-bottom: 10px;
 }
 
-.target2 {
+.image-right {
   float: right;
   padding-left: 20px;
   padding-bottom: 10px;

@@ -287,6 +287,11 @@ ol, ul {
   line-height: 26px;
 }
 
+.q8__main__bottom__btn:active {
+  color: #00BCD4;
+  background-color: #fff;
+}
+
 .q8__side {
   float: right;
   width: 380px;
@@ -303,7 +308,11 @@ ol, ul {
   resize: none;
 }
 
-.q8__input--init:focus {
+.q8__side__text:focus {
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+.q8__input:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 /* 回答はここに書いてね */
