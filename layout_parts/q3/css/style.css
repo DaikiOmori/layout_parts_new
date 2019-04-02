@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table,th,td  {
+.q3__table,.q3__table th,.q3__table td  {
   margin: 0 auto;
   border-collapse: collapse;
   border: 1px solid #decede;
@@ -17,13 +17,12 @@ table,th,td  {
 
 
 
-.q3__tr:nth-child(2) { 
+.q3__tr:nth-child(even) { 
   background-color: #ecf1f2
 }
 
-.q3__tr:nth-child(4) { 
-  border-bottom: 2px dashed #000;
-  background-color: #ecf1f2
+.q3__tfoot { 
+  border-top: 2px dashed #000;
 }
 
 .date {
