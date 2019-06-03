@@ -90,18 +90,6 @@
   font-weight: bold;
 }
 
-.q8__radio__btn:checked + .q8__radio__text:after {
-  position: absolute;
-  top: 50%;
-  left: 4px;
-  width: 8px;
-  height: 8px;
-  margin-top: -4px;
-  background-color: #00BCD4;
-  border-radius: 50%;
-  content: '';
-}
-
 .q8__main {
   float: left;
   width: 300px;
@@ -204,6 +192,18 @@ ol, ul {
   padding: 3px 3px 3px 20px;
 }
 
+.q8__radio__btn:checked + .q8__radio__text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
 .q8__select {
   position: relative;
 }
@@ -241,6 +241,18 @@ ol, ul {
   position: relative;
   display: inline-block;
   padding-left: 24px;
+}
+
+.q8__radio__btn:checked + .q8__radio__text:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
 }
 
 .q8__checkbox__text:before {
