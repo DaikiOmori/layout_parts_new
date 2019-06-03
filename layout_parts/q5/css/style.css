@@ -2,4 +2,101 @@
 
 /* 回答はここに書いてね */
 
+.q5 {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #ECF1F2;
+}
+
+.q5__box {
+  width: 100px;
+  line-height:100px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.is-1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+  background-color: #ffefd3;
+}
+
+.is-2 {
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+  background-color: #7084de;
+}
+
+.is-3 {
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+  background-color: #d0ecea;
+}
+
+.is-4 {
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+  background-color: #8b7a5e;
+}
+
+.is-5 {
+  position: absolute;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+  background-color: #9fd6d2;
+}
+
+.is-6 {
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+  background-color: #fffee4;
+}
+
+.is-7 {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+  background-color: #deae70;
+}
+
+.is-8 {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+  background-color: #de70cf;
+}
+
+.is-8::after {
+  position: absolute;
+  content:"";
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  background-color: #ffefd3;
+}
+
+.is-9 {
+  position: fixed;
+  z-index: 9;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+}
 /* 回答はここに書いてね */
